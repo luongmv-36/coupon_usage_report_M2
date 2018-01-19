@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Luong Mai.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Dtn_CouponReport::coupon_report" title="Coupon Usage Report" translate="title" module="Dtn_CouponReport" parent="Magento_CatalogRule::promo" sortOrder="50" action="dtn_couponreport/post/index" dependsOnModule="Magento_Sales" resource="Dtn_CouponReport::coupon_report"/>
+    </menu>
+</config>
